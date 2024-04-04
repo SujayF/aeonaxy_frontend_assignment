@@ -1,0 +1,9 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+@font-face {
+  font-family: 'charter';
+  src: url('./Charter_Regular.ttf') format('truetype');
+}
