@@ -13,12 +13,14 @@ import Tailoredfeeds from './pages/Tailoredfeeds';
 import Delivery from './pages/Delivery';
 import Comments from './pages/Comments';
 import Customize from './pages/Customize';
+import Navbar from './components/Navbar';
 
 function App() {
   
   return (
     <>
      <Router>
+      <Navbar/>
         <Routes>
          <Route path='/' element={<Home/>} />
          <Route  path='/signin' element={ <Signin/>} />

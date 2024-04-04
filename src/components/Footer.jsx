@@ -3,10 +3,15 @@ import logo from "../assets/logo.png";
 
 const Footer = () => {
   return (
-    <div className="flex flex-col items-center md:flex-row justify-between px-10 py-10 bg-white text-black">
-       <img src={logo} alt="logo" className="w-30 h-6 mb-5" />
+    <div className="flex flex-col items-center md:flex-row justify-between p-5 md:p-10 bg-white text-black">
+       
+      <li className="list-none">
+          <Link to="/"  > <img src={logo} alt="logo" className="w-30 h-6 mb-5" /> </Link>
+      </li> 
+       
+
        <p className="pb-5" >Every idea needs a Medium</p>     
-       <ul className="flex items-center flex-col md:flex-row underline " >
+       <ul className="flex text-xl md:text-base items-center flex-col md:flex-row underline " >
              <li className="px-2"  >
              <Link to="/about">About</Link>
              </li>
