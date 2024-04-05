@@ -6,8 +6,8 @@ const Hero = () => {
           <p className="tracking-widest text-white text-xs" >START A BLOG FOR FREE</p>
           <p className="text-5xl lg:text-8xl font-semibold tracking-tight pb-4 lg:pb-12" style={{fontFamily:'charter'}} >Publish,grow,<br />and earn, all in <br /> one place.</p>
           <p className="pb-12 inline-flex flex-col text-pretty">If you have a story to tell, knowledge to share, or a perspective <br className="hidden md:block" /> to offer &mdash; welcome home. Sign up for free so your writingcan thrive in <br /> a network supported by  millions of readers &mdash; not ads. 
-           <span>
-           <button className="px-5 py-1 mt-8 ml-5 rounded-full
+           <span className="w-1/1 pr-8 flex justify-center md:justify-start" >
+           <button className="px-8 py-2 mt-8 ml-5 rounded-full
         bg-white text-black" >
             Start writing
         </button>

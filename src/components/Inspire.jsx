@@ -16,7 +16,7 @@ const Inspire = () => {
           Tell your story your way &mdash; with different ways to <br className="hidden md:block" /> write
           ,style,and brand your work.
           <span>
-           <button className="pl-5 mt-8 pr-5 m-0 rounded-full
+           <button className="px-8 py-2 mt-8 m-0 rounded-full
         bg-black text-white" >
             Start writing
         </button>

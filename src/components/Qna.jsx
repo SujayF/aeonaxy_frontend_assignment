@@ -8,7 +8,7 @@ import {
 const Qna = () => {
   return (
     <div className="pb-10 pt-8 bg-black text-white">
-      <p className="text-4xl px-20  pb-10" style={{ fontFamily: "charter" }}>
+      <p className="text-4xl px-0 text-center md:text-left md:px-20  pb-10" style={{ fontFamily: "charter" }}>
         More about writing on Medium:
       </p>
 
